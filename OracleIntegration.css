@@ -1,0 +1,256 @@
+
+
+
+.bgRr {
+    background-color: rgb(227, 227, 228);
+}
+.paraRr{
+    font-size: 22px;
+    font-weight: 400;
+
+    font-family: wittgenstein;
+}
+.decstRr {
+    text-decoration: none;
+}
+
+.image-containerRr {
+    position: relative;
+}
+
+.img-fluidRr {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.img-overlayRr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.flxRr
+{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.txtstttRr {
+    position: absolute;
+    top: 16%;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.mars1Rr {
+    padding: 20px;
+}
+
+.fontszRr {
+    font-size: 22px;
+    font-weight: 400;
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+ .strongrrRr {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+   
+}
+
+ .font500Rr{
+    font-weight: 600;
+}
+
+.headingssstRr {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+
+ 
+}
+
+.m1Rr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+   
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cardsexaRr {
+    height: 255px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to right, #4073b3, #00C6FF);
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    max-width: 600px;
+  
+}
+
+
+.clrbgRr {
+    color: black;
+}
+
+.disgRr {
+    text-align: center;
+    margin-top: 22px;
+}
+
+.headchooseRr {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .m1Rr {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cardsexaRr {
+        flex: 1 1 45%;
+        max-width: none;
+        margin: 10px;
+        height: 252px;
+        font-size: 22px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: linear-gradient(to right, #4073b3, #00C6FF);
+        border-radius: 20px;
+        padding: 20px;
+        color: white;
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 325px) {
+    .txtstttRr {
+        font-size: 22px;
+        top: 8%;
+    }
+
+    .img-overlayRr {
+        height: 50%;
+    }
+
+    .headingssstRr {
+        font-size: 24px;
+    }
+
+    .headchooseRr {
+        font-size: 24px;
+    }
+
+    .fontszRr {
+        font-size: 22px;
+    }
+    .cardsexaRr{
+        height: 358px;
+        font-size: 22px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: linear-gradient(to right, #4073b3, #00C6FF);
+        border-radius: 20px;
+        padding: 20px;
+        color: white;
+        width: 100%;
+        max-width: 600px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .txtstttRr {
+        font-size: 22px;
+        top: 8%;
+    }
+
+    .img-overlayRr {
+        height: 50%;
+    }
+
+    .headingssstRr {
+        font-size: 24px;
+    }
+
+    .headchooseRr {
+        font-size: 24px;
+    }
+
+    .fontszRr {
+        font-size: 22px;
+    }
+    .cardsexaRr{
+        height: 311px;
+        font-size: 22px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: linear-gradient(to right, #4073b3, #00C6FF);
+        border-radius: 20px;
+        padding: 20px;
+        color: white;
+        width: 119%;
+        max-width: 600px;
+    }
+}
+
+
+
+@media (max-width: 1440px) {
+    .txtstttRr {
+        font-size: 22px;
+        top: 8%;
+    }
+
+    .img-overlayRr {
+        height: 50%;
+    }
+
+    .headingssstRr {
+        font-size: 40px;
+    }
+
+    .headchooseRr {
+        font-size: 40px;
+        margin-right: 1095px;
+        font-weight: 600;   
+    }
+
+    .fontszRr {
+        font-size: 22px;
+    }
+    .cardsexaRr{
+        margin-top: 20px;
+      
+        font-size: 22px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: linear-gradient(to right, #4073b3, #00C6FF);
+        border-radius: 20px;
+        padding: 20px;
+        color: white;
+        height: 290px;
+        max-width: 600px;
+    }
+}
+
+
+

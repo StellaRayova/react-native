@@ -1,0 +1,248 @@
+/* .imagem{
+    background-size: cover;
+    width: 100% !important;
+    position: relative;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.fontm{
+    font-family: wittgenstein;
+    font-size: 22px;
+    padding-left: 50px;
+}
+.fsm{
+    font-family: wittgenstein;
+    font-size: 22px;
+    padding-top: 5px;
+}
+.font1m{
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.sizem{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.flexm{
+    flex-direction: row;
+    display: flex;
+    
+}
+.tcm{
+    color: white;
+}
+.cardm{
+    background:  linear-gradient(to right,  #56CCF2, #2F80ED);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+    width: 700px;
+}
+.card1m{
+    background: linear-gradient(to right, #4073b3, #00C6FF);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+    width: 700px;
+}
+.padm{
+    margin-top:50px;
+}
+.card2m{
+    display: flex;
+    justify-content: center;
+}
+ */
+
+ h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Default font sizes*/
+.txt h2{
+    font-size: 24px;
+}
+.txt p{
+    font-size: 18px;
+}
+.btnm{
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.txtm{
+    position: absolute;
+    top: 10%;
+    color:white;
+    font-size: 70px;
+    font-weight: 700;
+}
+.paddingm{
+    margin-bottom: 0px;
+}
+/* Media queries for increasing font sizes on larger screens */
+@media (min-width: 768px) {
+    .txtm h2
+    {
+        font-size: 50px; /* Adjust size for tablets */
+    }
+
+    .txtm p {
+        font-size: 30px; /* Adjust size for tablets */
+    }
+    .btnm {
+        font-size: 18px;
+        padding: 12px 24px; /* Adjust size for tablets */
+    }
+}
+
+@media (min-width: 992px) {
+    .txtm h2 {
+        font-size: 70px; /* Adjust size for laptops */
+    }
+
+    .txtm p {
+        font-size: 35px; /* Adjust size for laptops */
+    }
+    .btnm {
+        font-size: 20px;
+        padding: 14px 28px; /* Adjust size for laptops */
+    }
+}
+
+@media (min-width: 1200px) {
+    .txtm h2 {
+        font-size: 70px; /* Adjust size for desktops */
+    }
+
+    .txtm p {
+        font-size: 35px; /* Adjust size for desktops */
+    }
+    .btnm {
+        font-size: 22px;
+        padding: 16px 32px; /* Adjust size for desktops */
+    }
+}
+
+
+ /* General Styles */
+.imagem {
+    background-size: cover;
+    width: 100% !important;
+    position: relative;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.fontm {
+    font-family: wittgenstein;
+    font-size: 22px;
+    padding-left: 50px;
+}
+
+.fsm {
+    font-family: wittgenstein;
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+.font1m {
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.sizem {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flexm {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+    justify-content: center; 
+    flex-direction: row;/* Centers cards horizontally */
+}
+.flexm{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.tcm {
+    color: white;
+}
+
+.cardm, .card1m {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+    width: 700px;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+.cardm {
+    background: linear-gradient(to right, #56CCF2, #2F80ED);
+}
+
+.card1m {
+    background: linear-gradient(to right, #4073b3, #00C6FF);
+}
+
+.padm {
+    margin-top: 50px;
+}
+
+.card2m {
+    display: flex;
+    justify-content: center;
+}
+
+/* General Card Styles */
+.cardm, .card1m {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    margin-bottom: 20px; /* Space between cards in column layout */
+}
+
+/* Mobile (320px) */
+@media (max-width: 320px) {
+    .cardm, .card1m {
+        width: calc(100% - 20px); /* Full width minus margins */
+        margin-left: 10px; /* Adjust left margin */
+        margin-right: 10px; /* Adjust right margin */
+    }
+}
+
+/* Mobile (375px) */
+@media (max-width: 375px) {
+    .cardm, .card1m {
+        width: calc(100% - 30px); /* Full width minus margins */
+        margin-left: 15px; /* Adjust left margin */
+        margin-right: 15px; /* Adjust right margin */
+    }
+}
+
+/* Tablet (up to 768px) */
+@media (max-width: 768px) {
+    .cardm, .card1m {
+        width: calc(100% - 40px); /* Full width minus margins */
+        margin-left: 20px; /* Adjust left margin */
+        margin-right: 20px; /* Adjust right margin */
+    }
+}
+
+/* Laptop (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .cardm, .card1m {
+        width: calc(50% - 40px); /* Two cards per row with margin */
+        margin-left: 20px; /* Margin between cards */
+        margin-right: 20px; /* Margin between cards */
+    }
+}

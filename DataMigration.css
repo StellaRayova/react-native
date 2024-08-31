@@ -1,0 +1,267 @@
+
+ .body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(227, 227, 228);
+  }
+  
+  .image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+ .topR1 {
+  margin-top: 25px;
+
+  }
+  .rajHead2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+  }
+  .mrlftR3{
+    margin-left: 50px;
+    margin-right: 40px;
+
+
+  }
+  .mrlftR3cnts{
+    margin-left: 5px;
+  }
+  
+  .txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .headingssR3 {
+ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+    font-size: 40px;
+  
+  
+
+} 
+.hdclrR3 {
+  color: navy;
+}
+
+
+
+  .fontszR3 {
+    /* margin: 10px 0;
+    font-size: 22px; */
+    font-size: 22px;
+    font-weight: 400;
+    margin: 20px;
+    font-family: wittgenstein;
+  }
+  
+
+  
+  .content-rowR3  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0;
+
+  }
+  .paraR3{
+
+      margin: 10px 0;
+      margin-top: 0px;
+      margin-left: 40px;
+      margin-right: 40px;
+
+  }
+  
+  .sideimgR3 {
+    height: 342px;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    flex: 1;
+    border-radius: 20px;
+  }
+  
+  .cardssR3 {
+    flex: 2;
+    margin: 10px;
+    height: 350px;
+    
+    width: 65%;
+    background: linear-gradient(to right, #4073b3, #00C6FF);
+
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+
+  .cenrR3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    
+  }
+  .fntwt60R3 {
+    font-weight: 600;
+  }
+  
+  @media (max-width: 768px) {
+    .image-container {
+      text-align: center;
+    }
+  
+    .headingssR3 {
+      font-size: 40px;
+    }
+  
+    .fontszR3  {
+      margin: 20px;
+      font-size: 22px;
+    }
+  
+    .content-rowR3 {
+      flex-direction: column;
+    }
+  
+    .sideimgR1,
+    .cardssR3 {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .txt h2 {
+      font-size: 22px;
+    }
+  
+    .txt p {
+      font-size: 22px;
+    }
+  
+    .btn {
+      font-size:22px;
+      padding: 10px 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .headingssR3 {
+      font-size: 44px;
+    }
+  
+    .fontszR3  {
+      margin: 20px;
+        font-size: 22px;
+    }
+    .txt h2 {
+      font-size: 22px;
+    }
+  
+    .txt p {
+      font-size: 22px;
+    }
+  
+    .btn {
+      font-size: 22px;
+      padding: 8px 16px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .cardssR3 {
+      flex: 2 1;
+      margin: 10px;
+      height: 535px;
+      width: 65%;
+      background: linear-gradient(to right, #4073b3, #00C6FF);
+      border-radius: 20px;
+      padding: 20px;
+      margin-bottom: 20px;
+      color: white;
+  }
+  .sideimgR3 {
+    height: 530px;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    flex: 1 1;
+    border-radius: 20px;
+}
+  }
+
+  @media (max-width: 320px)  {
+    .cardssR3 {
+      flex: 2 1;
+      margin: 10px;
+      height: 535px;
+      width: 96%;
+      background: linear-gradient(to right, #4073b3, #00C6FF);
+      border-radius: 20px;
+      padding: 20px;
+      margin-bottom: 20px;
+      color: white;
+  }
+
+  }
+
+  @media (min-width: 375px){
+    .cardssR3 {
+      flex: 2 1;
+      margin: 10px;
+      height: 535px;
+      width: 96%;
+      background: linear-gradient(to right, #4073b3, #00C6FF);
+      border-radius: 20px;
+      padding: 20px;
+      margin-bottom: 20px;
+      color: white;
+  }
+  }
+
+  @media (min-width: 1440px){
+    .cardssR3 {
+      flex: 2 1;
+      margin: 10px;
+      height: 403px;
+      width: 96%;
+      background: linear-gradient(to right, #4073b3, #00C6FF);
+      border-radius: 20px;
+      padding: 20px;
+      margin-bottom: 20px;
+      color: white;
+  }
+  .sideimgR3 {
+    height: 401px;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    flex: 1 1;
+    border-radius: 20px;
+}
+
+  }
+  

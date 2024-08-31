@@ -1,0 +1,225 @@
+.image-containerpz {
+    position: relative;
+    width: 100%; /* Full width of the card */
+  } 
+  .img-fluidpz {
+    width: 100%;
+    height: auto;
+    display: block; /* Ensures the image is a block element */
+  }
+  .overlayp {
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Smooth opacity transition */
+  }
+  .image-containerp .overlayp {
+    opacity: 1; 
+  }
+  .ca1p{
+    height:100%;
+    width: 100%;
+    background-color: white;
+    border-radius:none;
+    display: flex;
+    align-items: center;
+  }
+  .position-absolutep {
+    position: absolute;
+  }
+  .txt {
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+}
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+
+  btn-outline-lightp {
+    margin-top: 10px;
+    border: 10px solid rgb(255, 255, 255); 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    background: transparent; 
+    color: white; 
+    cursor: pointer; 
+    transition: background 0.3s ease, color 0.3s ease; 
+    color: bisque;
+   
+    
+  }
+  .btntxtsz{
+color: rgb(255, 255, 255);
+border-radius: 10px;
+border-color: aliceblue;
+  }
+  
+  .btn-outline-lightp:hover {
+    background: white; 
+    color: rgb(7, 7, 7); 
+    
+    border-color: rgb(255, 255, 255);
+  }
+  .Ogmst{
+   text-decoration: none;
+  }
+
+.tcz{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.tcsz1{
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.textz{
+    font-size: 22px;
+    font-family: wittgenstein;
+    font-weight: 400;
+    color: aliceblue;
+    
+}
+.textz1{
+    font-size: 22px;
+    font-family: wittgenstein;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.padsz
+{
+    margin-left: 5%;
+}
+.cardsz{
+    height:auto;
+    /* width: 60%; */
+    text-align: center;
+    background: linear-gradient(to right, #4073b3, #00C6FF);
+    border-radius: 10px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 10px;
+
+}
+.cdsz{
+    display: flex;
+    flex-direction: row;
+    /* width: 180%; */
+
+}
+.marz{
+    padding-left: 5.6%;
+    padding-right: 5.6%;
+}
+@media screen and (max-width:320px){
+    .btn{
+       
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+  
+
+@media screen and (max-width:480px){
+.text-center{
+    
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font: 40px;
+    font-weight: 500;
+    
+    
+
+  }
+  .hf{
+    font-size: 25px;
+    margin-top: 4px;
+  }
+  .cdsz{
+    display: flex;
+    flex-direction: column;
+    /* width: 90%; */
+  }
+}
+
+
+
+@media (min-width: 768px) {
+    .txt h2
+    {
+        font-size: 50px; /* Adjust size for tablets */
+    }
+  
+    .txt p {
+        font-size: 30px; /* Adjust size for tablets */
+    }
+    .btn {
+        font-size: 18px;
+        padding: 12px 24px; /* Adjust size for tablets */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .txt h2 {
+        font-size: 70px; /* Adjust size for laptops */
+    }
+  
+    .txt p {
+        font-size: 35px; /* Adjust size for laptops */
+    }
+    .btn {
+        font-size: 20px;
+        padding: 14px 28px; /* Adjust size for laptops */
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .txt h2 {
+        font-size: 70px; /* Adjust size for desktops */
+    }
+  
+    .txt p {
+        font-size: 35px; /* Adjust size for desktops */
+    }
+    .btn {
+        font-size: 22px;
+        padding: 16px 32px; /* Adjust size for desktops */
+    }
+  }
+  
+  @media screen and (max-width:480px){
+    .txt4{
+      font-size:13px;
+      
+    }
+    .text-center{
+      
+      align-items: center;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+      font: 40px;
+      font-weight: 500;
+      
+      
+  
+    }
+    .hf{
+      font-size: 25px;
+      margin-top: 4px;
+    }
+  }

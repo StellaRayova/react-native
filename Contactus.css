@@ -1,0 +1,78 @@
+.uni{
+  font-size: 22px;
+  font-family:"wittgenstein";
+}
+.body {
+  overflow-x: hidden;
+}
+.contact-section {
+  background: url('../images/Contactimg.jpeg') no-repeat center center;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.overlayru {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location-iconru {
+  background: url('../images/') no-repeat center center;
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+  margin: 0 auto 10px;
+}
+
+.rrr {
+  border: 1px solid #e0e0e0;
+  border-radius: 5.3px;
+  background: linear-gradient(to right,  #4EC1E6, #2F96B4);
+  color: black;
+  margin-top: 260px;
+  height: 350px;
+}
+ .cbru{
+  border-radius: 10px;
+  padding: 20px;
+  background: linear-gradient(to right,  #4EC1E6, #2F96B4);
+  color: black;
+}
+@media (max-width: 480px) {
+  .container {
+    width: 50%;
+  }
+  .cardru {
+    margin: 0;
+  }
+  .h1ru {
+    font-size: 49px;
+  }
+  .overlay {
+    padding: 20px;
+  }
+  .location-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .rrr {
+      text-align: center;
+      margin: 20px;
+      padding: 20px;
+      height: 500px;
+    }
+    .paa {
+      padding-top: 32px;
+    }
+  }
+@media (orientation:landscape) {
+.h1ru {
+font-size: 70px;
+padding-right: 455px;
+}
+}

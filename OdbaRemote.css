@@ -1,0 +1,357 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    height: 100vh;
+}
+
+
+
+.txtoaj{
+    position: absolute;
+    top: 40%;
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 10px;
+}
+
+.card1aj{
+    height:250px;
+    width: 90%;
+    border-radius: 8px;
+ 
+}
+.card2aj{
+    height:200px;
+    width: 93%;
+    border-radius: 8px;
+}
+.flex4oaj{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   flex-direction: column;
+}
+.imgajo1{
+    width: 30%;
+    height: 250px ;
+    margin: 0 auto ;
+     border-Radius:10px;
+      box-Shadow:0px 0px 5px 0px;
+     
+      }
+
+
+
+.flexoaj{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 40px;
+}
+.flexo1aj{
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+    padding-left: 40px;
+}
+
+.styleoaj{
+    display:flex;
+    flex-Direction:row;
+    justify-Content:space-between
+  }
+  .imgoaj{
+    width:96%;
+    height:600px;
+  padding-left: 50px;
+  }
+  .imageoaj{
+    height: 500px;
+    width: 600px;
+   padding-left: 60px;
+   padding-top: 20px;
+  
+  }
+  /* .T41aj{
+    font-size: 22px;
+    font-weight: 400;
+    font-family:wittgenstein;
+    padding-top: 150px;
+   
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    text-align: left;
+  } */
+
+
+.imgo1aj {
+    width: 100% !important;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.img-overlayaj {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.T2oaj{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+}
+.T6oaj{
+    font-size: 22px;
+    font-weight: 400;  
+    font-family:wittgenstein;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:20px;
+   
+    }
+    .T6o1aj{
+        padding-top: 50px;
+    }
+    .T6o2aj{
+        padding-top: 0px;
+    }
+    .T6o3aj{
+        padding-bottom: 30px;
+    }
+
+.bgoaj{
+    background-color: rgb(227, 227, 228);
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtoaj h2 {
+    font-size: 24px;
+}
+
+.txtoaj p {
+    font-size: 18px; 
+}
+.btnaj {
+    font-size: 16px;
+    padding: 16px 35px;
+}
+@media (min-width: 320px) and (max-width: 561px) {
+  
+    .card1oaj {
+        height: 260px;
+        width: 95%;
+        border-radius: 8px;
+    }
+
+    .T2oaj{
+        font-size: 25px;
+    }
+    .styleoaj {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+          padding-left: 10px;
+          padding-bottom: 10px;
+          padding-top: 0px;
+      }
+      .card1aj{
+        height: 350px;
+    }
+
+      
+  }
+    
+  
+
+
+/* Small tablets (425px to 767px) */
+@media (min-width: 425px) and (max-width: 767px) {
+    .txtoaj h2 {
+        font-size: 20px;
+    }
+    .txtoaj p {
+        font-size: 19px;
+    }
+    .btnaj {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+    .card1aj{
+        height: 301px;
+    }
+    .card2aj{
+        height: 262px;
+        margin-top: 10px;
+    }
+    .flexoaj {
+        display: flex;
+       flex-direction: column;
+    }
+    .flexo1aj {
+        display: flex;
+       flex-direction: column;
+       margin-top: 20px;
+    }
+    .imgajo1 {
+        width: 57%;
+        height: 143px;
+    }
+    .txtoaj {
+        top: 13%;
+    }
+    
+}
+
+/* Large tablets and small laptops (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .txtoaj h2 {
+        font-size: 30px;
+    }
+    .txtoaj p {
+        font-size: 20px;
+    }
+    .btnaj {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+    .card1aj{
+        height: 543px;
+    }
+    .card2aj {
+        height: 303px;
+    }
+    .txtoaj p {
+        top:70%;
+    }
+    .txtoaj {
+        padding-left: 15px;
+        top:20%;
+    }
+    .styleoaj {
+      
+        padding-left: 30px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+    .imgajo1 {
+        width: 35%;
+        height: 164px;
+    }
+
+ 
+}
+
+/* Laptops (992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .txtoaj h2 {
+        font-size: 49px;
+    }
+    .txtoaj p {
+        font-size: 35px;
+    }
+    .btnaj {
+        font-size: 20px;
+        padding: 14px 28px;
+    }
+    .card1aj {
+        height: 358px;
+    }
+    .txtoaj {
+        position: absolute;
+        top: 24%;
+        padding-left: 30px;
+  
+    }
+ 
+}
+
+/* Desktops (1200px and above) */
+@media (min-width: 1200px) {
+    .txtoaj h2 {
+        font-size: 70px;
+    }
+    .txtoaj p {
+        font-size: 35px;
+    }
+    .btnaj {
+        font-size: 22px;
+        padding: 16px 32px;
+    }
+ 
+}
+
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .txtoaj h2 {
+        font-size:20px;
+    }
+    .txtoaj p {
+        font-size: 15px;
+    }
+    .txtoaj{
+        top:5%;
+
+    }
+ 
+    .btnaj {
+        font-size: 12px;
+        padding: 8px 10px;
+     
+
+    }
+    .styleoaj {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+    .T41aj {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .img2aj {
+        width: 49%;
+        height: 109px;
+   
+    }
+    .card1aj{
+        height: 447px;
+    }
+    .card2aj {
+        height: 351px;
+    }
+    .flexoaj {
+        display: flex;
+     flex-direction: column;
+    }
+    .flexo1aj {
+        display: flex;
+     flex-direction: column;
+     margin-top: 20px;
+    }
+    .imgajo1 {
+        width: 46%;
+        height: 121px;
+    }
+    .h4, h4 {
+        font-size: calc(1.275rem + 1.3vw);
+    }
+}

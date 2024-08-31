@@ -1,0 +1,115 @@
+.scroll {
+    overflow-x: hidden;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.k2card {
+    background: linear-gradient(to right, #56CCF2, #2F80ED);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1 0 45%;
+    margin: 15px;
+    text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+    color: #fff; /* Ensures text is readable against the gradient background */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.k2card:hover{
+    transform: translateY(-5px);  
+}
+
+.k2head {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+.k2cardhead {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.k2cardtext {
+    font-size: 22px;
+    font-family: 'wittgenstein';
+}
+
+.k2adpd {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.k2eaddc {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.k2addi {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 40px;  
+    padding-left: 40px;
+}
+
+.k2ullicolor {
+    font-size: 20px;
+    margin-left: 30px;
+    /* list-style: none; */
+    color: rgb(0, 0, 0);
+}
+.k2center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.k22img {
+    width: 20%;
+    height: auto; /* Ensures the image maintains its aspect ratio */
+    border-radius: 5px;
+}
+
+.k2pd {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 40px;
+    text-align: left;
+}
+
+.k2contacttext {
+    padding-left: 40px;
+}
+.tdclkk{
+    text-decoration: none;
+}
+/* .k2disrow {
+    display: flex;
+    flex-direction: row;
+   
+} */
+
+/* .k2cardadd {
+    background: linear-gradient(to right, #4073b3, #00C6FF);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 8px;
+    box-sizing: border-box;
+    color: #fff; 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.k2cardadd:hover{
+    transform: translateY(-5px);
+} */

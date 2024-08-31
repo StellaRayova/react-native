@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Optional: Add a background color */
+  }
+  
+  .container {
+    position: relative;
+    width: 80%;
+    left: 15%;
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .overlapping-image {
+    position: absolute;
+    left: -200px; /* Adjust the left value to control the overlap amount */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 400px; /* Adjust the width of the visible part of the image */
+    height: auto;
+    z-index: 1; /* Ensure image is above content */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  
+  .content {
+    width: 85%; 
+    height: 600px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #6dd5ed, #2193b0);
+    padding: 80px 50px 80px 200px; /* Extra padding on the left to ensure text visibility */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+  
+  .text-content {
+    z-index: 2; /* Ensure text content is above the image */
+  }
+  
+  .pe {
+    font-size: 44px;
+    font-weight: 700;
+  }
+  
+  .ptext {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 1200px) {
+    .overlapping-image {
+      width: 300px; /* Adjust for smaller screens */
+      left: -150px; /* Adjust the overlap for smaller screens */
+    }
+    .content {
+      padding-left: 150px; /* Adjust the padding on the left */
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .overlapping-image {
+      width: 250px; /* Adjust for even smaller screens */
+      left: -100px; /* Adjust the overlap for smaller screens */
+    }
+    .content {
+      padding-left: 100px; /* Adjust the padding on the left */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .overlapping-image {
+      display: none; /* Hide the overlapping image on smaller screens */
+    }
+    .content {
+      width: 100%; /* Full width content on smaller screens */
+      padding: 50px; /* Adjust padding for smaller screens */
+    }
+  }
